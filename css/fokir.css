@@ -1,0 +1,318 @@
+/* -----------------------  NAVIGATION BAR  --------------------- */
+
+.navbar{
+    background-color: rgb(15, 15, 15);
+}
+
+.nav-logo{
+    color: #ff305b;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+
+
+/* -------------------------  HEADER  -------------------------- */
+
+header{
+    background-image: url("../img/slider/slider-01.jpg");
+    /* background-attachment: fixed; */
+    background-size: cover; 
+    background-position: center center;
+}
+.home{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+
+.header-content h4{
+    color: #ffffff;
+    font-weight: 600;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-content h1{
+    color: #ff305b;
+    font-size: 70px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0 0 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.header-content p{
+    font-size: 26px;
+    color: #fff;
+}
+
+
+
+
+/* -------------------------------  ABOUT  ----------------------------------- */
+
+
+.about{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.container{
+    display: flex;
+}
+.brdr-redius-5{
+    border-radius: 5px;
+}
+.brdr{
+    height: 100%;
+    border:  rgb(65, 65, 65) solid 10px;
+
+}
+.pic-layer{
+    top: 20px;
+    left: 20px;
+    overflow: hidden;
+}
+.layer{
+    background-color: rgba(238, 238, 238, 0.8);
+    top: 100%;
+    transition: top 0.5s;
+}
+.pic-layer:hover .layer{
+    top: 0;
+}
+.social-icon li a img{
+    width: 30px;
+    height: 30px;
+}
+
+.about-content h2{
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 22px;
+    margin-bottom: 25px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.about-content p{
+    font-size: 17px;
+    border-bottom: 1px dashed #999999;
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    margin: 0 0 15px;
+}
+.about-info ul li{
+    width: 50%;
+    margin-bottom: 15px;
+}
+.about-info ul li span{
+    font-size: 17px;
+    color: #333333;
+    font-weight: 500;
+}
+.about-info ul li a{
+    color: rgb(36, 36, 36);
+}
+.btn{
+    background-color: #ff305b;
+    color: white;
+}
+
+
+
+
+/* -----------------------------------  OUR SERVICES  ---------------------------------------- */
+
+.our-services{
+    background-color: rgb(238, 238, 238);
+    padding: 100px 0 70px;
+    margin-bottom: 100px;
+}
+.our-services-items{
+    border-radius: 10px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    transition: all 0.3s;
+}
+.our-services-items:hover{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.1);
+}
+.titl{
+    margin-bottom: 50px;
+}
+.titl h2{
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 30px;
+    margin: 0 0 18px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.line{
+    width: 70px;
+    height: 1px;
+    background-color: #ff305b;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.line1{
+    width: 150px;
+    height: 2px;
+    background-color: #ff305b;
+    margin: auto;
+    margin-bottom: 5px;
+}
+.item img{
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s;
+}
+.our-services-items:hover .item img{
+    transform: scale(1.2 , 1.2);
+}
+.item h3{
+    color: #ff305b;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+
+/* ---------------------  PORTFOLIO  ---------------------- */
+
+.our-portfolio{
+    margin-bottom: 100px;
+}
+.our-portfolio-content{
+    margin-bottom: 25px;
+}
+.our-portfolio-content ul li a{
+    color: #ff305b;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.our-portfolio-img{
+    position: relative;
+}
+.our-portfolio-img img{
+    border-radius: 5px;
+}
+.our-portfolio-img-action{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    background-color: rgba(63, 63, 63, 0.5);
+    transition: opacity 0.4s;
+}
+.our-portfolio-img:hover .our-portfolio-img-action{
+    opacity: 1;
+}
+
+
+
+/* -------------------------  COUNTER  ----------------------------- */
+
+.counter{
+    background-color: rgb(238, 238, 238);
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+.counter-item{
+    padding-bottom: 50px;
+}
+.counter-item img{
+    width: 30px;
+    height: 30px;
+    margin-bottom: 15px;
+}
+.counter-item h4{
+    font-size: 26px;
+    font-weight: 500;
+    color: black;
+}
+.counter-item p{
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 0;
+    color: black;
+}
+
+
+
+/* -----------------------  FEEDBACK  ---------------------------- */
+
+.feedback{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.row-border{
+    background-color: rgb(238, 238, 238);
+    border-radius: 15px;
+}
+.feedback-content-img img{
+    border-radius: 50%;
+}
+.feedback-content-paragraph h4{
+    font-size: 19px;
+}
+.car-icon{
+    color: rgb(51, 51, 51);
+}
+
+
+/* -------------------------  OUR BLOG  ---------------------------- */
+
+.our-blog{
+    width: 100%;
+    height: auto;
+    background-color: rgb(238, 238, 238);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.card{
+    border-radius: 10px;
+}
+.card img{
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+}
+
+
+
+/* ---------------------------  CONTACT  ----------------------------- */
+
+.contact-us{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+
+/* ------------------------ END SECTION  ----------------------- */
+.end{
+    background-color: rgb(31, 31, 31);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.end-social-icon li a img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+
+
+
+/* -------------------------  MEDIA QUERY -------------------------- */
+
+
+@media screen and ( max-width:800px){
+    .nav-menu{
+        flex-direction: column;
+    }
+}
